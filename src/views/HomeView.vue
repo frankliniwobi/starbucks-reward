@@ -5,6 +5,7 @@ import FavouritesSection from '@/components/sections/FavouritesSection.vue'
 import GettingStartedSection from '@/components/sections/GettingStartedSection.vue'
 import EndlessSection from '@/components/sections/EndlessSection.vue'
 import CardCashSection from '@/components/sections/CardCashSection.vue'
+import RewardsSection from '@/components/sections/RewardsSection.vue'
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import CardCashSection from '@/components/sections/CardCashSection.vue'
       <FavouritesSection />
       <EndlessSection />
       <CardCashSection />
+      <RewardsSection />
     </main>
   </div>
 </template>
