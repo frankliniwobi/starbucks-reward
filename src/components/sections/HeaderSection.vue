@@ -104,7 +104,7 @@ const toggleNav = () => {
   </header>
   <!-- Sub Header  -->
   <div
-    class="sticky top-0 bg-secondary z-20 p-2 px-4 sm:p-4 sm:pl-24 flex justify-between place-items-center"
+    class="sticky top-0 bg-secondary z-20 p-3 px-4 sm:p-4 sm:pl-24 flex justify-between place-items-center"
   >
     <h3 class="text-light font-bold text-sm sm:text-md">STARBUCKS® REWARDS</h3>
     <SecondaryButton class="sm:hidden"> Join in the app </SecondaryButton>

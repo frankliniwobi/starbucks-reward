@@ -4,7 +4,7 @@ import InlineLink from '@/components/InlineLink.vue'
 </script>
 
 <template>
-  <section class="mt-52 sm:mt-0 p-5 py-16 space-y-10">
+  <section class="mt-44 sm:mt-0 p-5 py-16 space-y-10">
     <div class="space-y-5">
       <h2 class="text-center font-medium text-2xl">Getting started is easy</h2>
       <p class="text-[15px] leading-[22px] text-center font-normal">
