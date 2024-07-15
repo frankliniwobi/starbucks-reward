@@ -6,6 +6,7 @@ import GettingStartedSection from '@/components/sections/GettingStartedSection.v
 import EndlessSection from '@/components/sections/EndlessSection.vue'
 import CardCashSection from '@/components/sections/CardCashSection.vue'
 import RewardsSection from '@/components/sections/RewardsSection.vue'
+import QuestionSection from '@/components/sections/QuestionSection.vue'
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import RewardsSection from '@/components/sections/RewardsSection.vue'
       <EndlessSection />
       <CardCashSection />
       <RewardsSection />
+      <QuestionSection />
     </main>
   </div>
 </template>
