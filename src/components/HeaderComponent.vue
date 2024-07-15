@@ -104,14 +104,18 @@ const toggleNav = () => {
   </header>
   <!-- Sub Header  -->
   <div
-    class="sticky top-0 bg-secondary p-2 px-4 sm:p-4 sm:pl-24 flex justify-between place-items-center"
+    class="sticky top-0 bg-secondary z-20 p-2 px-4 sm:p-4 sm:pl-24 flex justify-between place-items-center"
   >
     <h3 class="text-light font-bold text-sm sm:text-md">STARBUCKS® REWARDS</h3>
     <SecondaryButton class="sm:hidden"> Join in the app </SecondaryButton>
   </div>
 
   <!-- Mobile Nav -->
-  <div v-if="navIsOpen" class="sm:hidden absolute flex w-full overscroll-none top-[73px] z-20">
+  <!-- <div v-if="navIsOpen" class="sm:hidden absolute flex w-full overscroll-none top-[73px] z-20"> -->
+  <div
+    v-if="navIsOpen"
+    class="sm:hidden absolute flex w-full overscroll-none top-[73px] z-30 border-t-2"
+  >
     <div @click="toggleNav" class="w-[20%] bg-gray-500/30"></div>
     <div class="bg-white w-[80%] p-10 pb-52">
       <div class="flex flex-col pb-8 border-b-2 gap-8">

@@ -11,7 +11,7 @@ import PrimaryButton from '@/components/PrimaryButton.vue'
         FREE COFFEE <br />
         IS A TAP AWAY
       </h1>
-      <p class="font-medium text-center text-dark sm:text-xl text-md">
+      <p class="font-medium text-center sm:text-left text-dark text-md">
         Join now to start earning Rewards.
       </p>
       <PrimaryButton class="sm:hidden">Join in the app</PrimaryButton>
