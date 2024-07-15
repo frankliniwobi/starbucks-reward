@@ -7,7 +7,7 @@ import InlineLink from '@/components/InlineLink.vue'
   <section class="mt-44 sm:mt-0 p-5 py-16 space-y-10">
     <div class="space-y-5">
       <h2 class="text-center font-medium text-2xl">Getting started is easy</h2>
-      <p class="text-[15px] leading-[22px] text-center font-normal">
+      <p class="text-[14px] leading-[22px] text-center font-normal">
         Earn stars and get Rewarded in a few easy steps.
       </p>
     </div>
